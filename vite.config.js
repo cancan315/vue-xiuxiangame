@@ -106,5 +106,8 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src')
     }
   },
-  logLevel: 'error'
+  logLevel: 'error',
+  preview: { 
+      allowedHosts: true
+    }
 })
